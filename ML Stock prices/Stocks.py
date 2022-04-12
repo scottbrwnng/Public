@@ -9,7 +9,7 @@ plt.style.use('bmh')
 # Store the data into a frame
 # Trying to fix dates being read as string, required to be float
 
-df = pd.read_csv('/Users/scott/Downloads/NFLX.csv')
+df = pd.read_csv('/Users/scott/Desktop/GitHub/Public/ML Stock prices/NFLX.csv')
 
 # Shows how many rows and columns
 # print(df.shape)
