@@ -19,7 +19,9 @@ plt.title('Netflix')
 plt.xlabel('Days')
 plt.ylabel('Close price in USD ($)')
 plt.plot(df['Close'])
-# plt.show() #Shows closing price data before prediction
+plt.show() #Shows closing price data before prediction
+
+
 
 
 df = df[['Close']]
