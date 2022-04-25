@@ -52,7 +52,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)
 tree = DecisionTreeRegressor().fit(x_train, y_train)
 
 # Create linear regression model
-lr = LinearRegression().fit(x_train, y_train)
+lr = LogisticRegression().fit(x_train, y_train)
 
 
 # Get the last x rows of the feature data set
